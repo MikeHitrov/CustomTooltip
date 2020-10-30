@@ -1,4 +1,4 @@
-const addTooltip = (elementId, text, delayBeforeShow, delayAfterShow) => {
+function addTooltip(elementId, text, delayBeforeShow, delayAfterShow) {
   //Getting the tooltip required element
   const element = document.getElementById(elementId);
 
@@ -32,5 +32,3 @@ const addTooltip = (elementId, text, delayBeforeShow, delayAfterShow) => {
     }, delayAfterShow);
   });
 };
-
-addTooltip("el", "test", 100, 100);
