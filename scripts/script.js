@@ -8,7 +8,7 @@ function addTooltip(elementId, text, delayBeforeShow, delayAfterShow) {
   //Adding stylesheet
   base.classList.add("tooltip");
 
-  element.addEventListener("mouseenter", (event) => {
+  element.addEventListener("mouseover", (event) => {
     // Checking if tooltip is empty or not.
     if (text != null) {
       base.innerHTML = text;
