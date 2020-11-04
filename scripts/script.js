@@ -31,4 +31,6 @@ function addTooltip(elementId, text, delayBeforeShow, delayAfterShow) {
       document.getElementsByTagName("tooltip")[0].remove(); //Removing the tooltip
     }, delayAfterShow);
   });
-};
+}
+
+exports.addTooltip;

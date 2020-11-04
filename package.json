@@ -1,5 +1,22 @@
 {
   "devDependencies": {
     "cypress": "^5.5.0"
-  }
+  },
+  "name": "customtooltip",
+  "description": "Use addTooltil(elementId, textToDisplay, delayBeforeShowing, delayBeforeClosiln) to add custom tooltip",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeHitrov/CustomTooltip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeHitrov/CustomTooltip/issues"
+  },
+  "homepage": "https://github.com/MikeHitrov/CustomTooltip#readme"
 }
