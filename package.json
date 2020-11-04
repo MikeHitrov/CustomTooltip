@@ -2,10 +2,18 @@
   "devDependencies": {
     "cypress": "^5.5.0"
   },
-  "name": "customtooltip",
+  "name": "@mhitrov/customtooltip",
   "description": "Use addTooltip(elementId, textToDisplay, delayBeforeShowing, delayBeforeClosing) to add custom tooltip.",
   "version": "1.0.0",
   "main": "scripts/script.js",
+  "directories": {
+    "scripts": "/scripts",
+    "styles": "/styles"
+  },
+  "files": [
+    "./scripts/script.js",
+    "./styles/style.css"
+  ],
   "scripts": {
     "test": "npx cypress open"
   },
