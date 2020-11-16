@@ -4,8 +4,7 @@
   },
   "name": "@mhitrov/customtooltip",
   "description": "Use addTooltip(elementId, textToDisplay, delayBeforeShowing, delayBeforeClosing) to add custom tooltip.",
-  "version": "1.0.0",
-  "main": "scripts/script.js",
+  "version": "1.0.1",
   "scripts": {
     "test": "npx cypress open"
   },
@@ -13,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/MikeHitrov/CustomTooltip.git"
   },
-  "author": "",
+  "author": "Mihail Hitrov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MikeHitrov/CustomTooltip/issues"
