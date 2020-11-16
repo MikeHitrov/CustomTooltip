@@ -8,6 +8,10 @@
   "scripts": {
     "test": "npx cypress open"
   },
+  "files": [
+    "./scripts/script.js",
+    "./styles/style.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MikeHitrov/CustomTooltip.git"
